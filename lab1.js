@@ -169,7 +169,7 @@ for (var i = 0; i < mealsPerDay.length ; i++)
   average = sum / (i + 1);
   if (average < 4) {
     tooHungryDay = i + 1;
-    //break; This made the assert fail.
+    break;
   }
 }
 
